@@ -6,7 +6,7 @@ void main()
 
     printf("時刻を入力してください。");
     fflush(stdout);
-    scanf("%d%",&h);
+    scanf("%d",&h);
 
     if(h < 12)
     {
@@ -14,6 +14,14 @@ void main()
     }
     else
     {
-        if(h )
+        if(h >= 12 && h < 18 )
+        {
+            printf("こんにちは！");
+        }
+        else
+        {
+            printf("こんばんは！");
+        }
+
     }
 }
